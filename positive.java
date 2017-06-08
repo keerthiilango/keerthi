@@ -6,13 +6,18 @@ public class even
 {
   Scanner s=new Scanner(System.in);
   int n=s.nextInt();
-  if(n%2==0)
+  if(n>0)
   {
-   System.out.println("even number");
+   System.out.println("positive");
   }
-  else 
+  else if(n<0) 
   {
    System.out.println("odd number");
+  }
+  else
+  {
+   System.out.println("zero");
+  }
   
   }
  } 
